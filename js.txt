@@ -1,0 +1,50 @@
+= , +=, -=, /=, %=
+
+x+ = x= x+4
+x- = x= x-4
+x* = x= x*4
+x/ = x= x/4
+x% = x= x%4
+
+
+
+
+
+== 
+=== 
+!= 
+> 
+<
+>=  
+<=
+
+
+&& 
+||
+!
+
+
+
+if(condition){
+    code;
+}
+
+switch(expression){
+    case 1:
+          code1;
+          break;
+    case2:
+        code 2;
+        break;
+     default:
+         code default;
+         break   
+}
+
+
+
+
+function function_name(){
+    code;
+}
+function_name()
