@@ -58,11 +58,11 @@
 
 
 
-// var a = 20
-// var b = 20
+var a = 20
+var b = 20
 //  document.write(a==b)
 // document.write(a===b)
-// document.write(a!=b)
+document.write(a!=b)
 // document.write(a>b)
 // document.write(a>=b)
 // document.write(a<b)
@@ -228,29 +228,29 @@
 // document.write(!(b>=2000))
 
 
-// var age = 2;
+// var age = 18;
 // var x = age >= 18 ? "Major" : "Minor";
 // document.write(x, age);
 
-// var x = (trainer = true) ? "class is here" : "there is no class";
+// var x = (trainer = false) ? "class is here" : "there is no class";
 // document.write(x);
 
 
-// var x = 1;
+// var x = -1;
 // var y = x <= 0 ? "Negative" : "Positive";
 // document.write(y);
 
 
 // var marks = prompt('Enter your marks :');
 // var result = (marks >= 40) ? 'pass' : 'fail';
-
 // document.write(`You ${result} the exam.`);
 
 
 
 // function testVar() {
 //     if (true) {
-//         var x = 10; 
+//         const x = 10; 
+//         console.log(x); 
 //     }
 //     console.log(x); 
 // }
@@ -276,7 +276,17 @@
 
 
 // var  a = prompt('Enter your number :');
-var  a = 3;
+// var  a = 0;
+// var result = (a >= 0) ? (a == 0 ? "zero" : "positive") : "negative";
+// document.write(`The number is ${result}.`);
 
-var result = (a >= 0) ? (a == 0 ? "zero" : "positive") : "negative";
-document.write(`The number is ${result}.`);
+
+var num = -5;
+var result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
+document.write(`The number is: ${result}`);
+
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`5 x ${i} = ${5 * i}`);
+//   }
+  
