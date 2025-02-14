@@ -58,11 +58,11 @@
 
 
 
-var a = 20
-var b = 20
+// var a = 20
+// var b = 20
 //  document.write(a==b)
 // document.write(a===b)
-document.write(a!=b)
+// document.write(a!=b)
 // document.write(a>b)
 // document.write(a>=b)
 // document.write(a<b)
@@ -88,28 +88,37 @@ document.write(a!=b)
 // var a=0
 // if(a<0){
 //     document.write("negitive number")
-// }else if(a>0){
+// }
+// else if(a>0){
 //     document.write("positive number")
 // }
-// else{
+// else{  
 //     document.write("Zero")
 // }
 
-// var a = "h"
-
-// switch(a){
-//     case "A":
-//         document.write("Apple")
-//         break;
-//     case "B"  :
-//         document.write("Bat")
-//         break;
-//     case "c"  :
-//             document.write("Cat")
-//             break;  
-//      default:
-//         document.write("Invalid character")         
+// var a=10
+// if(a>0){
+//     document.write("positive number")
+// }else {
+//     document.write("Negative number")
 // }
+
+
+
+var a = "A"
+switch(a){
+    case "A":
+        document.write("Apple")
+        break;
+    case "B"  :
+        document.write("Bat")
+        break;
+    case "c"  :
+            document.write("Cat")
+            break;  
+     default:
+        document.write("Invalid character")         
+}
 
 
 
@@ -281,9 +290,9 @@ document.write(a!=b)
 // document.write(`The number is ${result}.`);
 
 
-var num = -5;
-var result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
-document.write(`The number is: ${result}`);
+// var num = -5;
+// var result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
+// document.write(`The number is: ${result}`);
 
 
 // for (let i = 1; i <= 10; i++) {
